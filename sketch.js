@@ -20,14 +20,13 @@ const emotions = [
 let currentIndex = 0;
 
 function setup() {
-  createCanvas(390, 844);
+  createCanvas(380, 600);
   frameRate(2)
-  colorMode(HSB);
-  background(255, 204, 100);
+  background(0);
 }
 
 function draw() {
-  background(255, 204, 100);
+  background(0);
 
   textSize(32);
   textAlign(CENTER, CENTER);
