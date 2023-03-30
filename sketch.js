@@ -20,7 +20,7 @@ const emotions = [
 let currentIndex = 0;
 
 function setup() {
-  createCanvas(380, 600);
+  createCanvas(windowWidth, windowHeight);
   frameRate(2)
   background(0);
 }
